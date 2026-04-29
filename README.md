@@ -6,7 +6,7 @@
 
 ## About
 
-This repository contains exercises for Module 06, focusing on type casting mechanisms in C++ (C++98 style). Each exercise explores different casting operators and their appropriate use cases, helping you understand when and why to use each cast type in real-world scenarios.
+This repository contains exercises for Module 06, focusing on type casting mechanisms in C++ (C++98 style). Each exercise explores different casting operators and their appropriate use cases, helping to understand when and why to use each cast type in real-world scenarios.
 
 ## Project Goals
 
@@ -69,7 +69,6 @@ Replace `ex00` with any other exercise directory as needed.
 ## Technical Notes
 
 - The codebase strictly adheres to the C++98 standard as required for these exercises.
-- Type casting must be explicit and justified — your choice of cast operator will be reviewed during evaluation.
 - No use of `std::typeinfo` or `typeid` in `ex02` — `dynamic_cast` provides safe downcasting without RTTI.
 - All classes follow the Orthodox Canonical Form where applicable (ex00 and ex01 have non-instantiable classes).
 - Proper error handling is essential: invalid conversions must be detected and reported, not silently fail.
